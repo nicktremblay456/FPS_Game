@@ -1,0 +1,1299 @@
+fileFormatVersion: 2
+guid: efb1f66c739ea1149ad25be5a6c26739
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -799936406111452832
+    second: Pistol_Idle
+  - first:
+      213: 1385610078695879556
+    second: Pistol_Fire_00
+  - first:
+      213: -1231284233350378893
+    second: Pistol_Fire_01
+  - first:
+      213: 1705706114589018139
+    second: Nintendo 64 - Doom 64 - Weapons_18
+  - first:
+      213: 1435051020770389599
+    second: Nintendo 64 - Doom 64 - Weapons_19
+  - first:
+      213: -8639953239734177125
+    second: Pistol_Fire
+  - first:
+      213: 1256546378311902372
+    second: Nintendo 64 - Doom 64 - Weapons_31
+  - first:
+      213: -8728654051581206600
+    second: Nintendo 64 - Doom 64 - Weapons_32
+  - first:
+      213: -4692190809989074926
+    second: Nintendo 64 - Doom 64 - Weapons_33
+  - first:
+      213: -3157540300188726020
+    second: Nintendo 64 - Doom 64 - Weapons_34
+  - first:
+      213: -8455851613396797922
+    second: Nintendo 64 - Doom 64 - Weapons_35
+  - first:
+      213: 5468974061390022711
+    second: Nintendo 64 - Doom 64 - Weapons_36
+  - first:
+      213: -4973433122550113586
+    second: Shotgun_Fire_00
+  - first:
+      213: 3362344639006395335
+    second: Shotgun_Idle
+  - first:
+      213: -7625465007111535065
+    second: Shotgun_Fire_01
+  - first:
+      213: -5877447775313846705
+    second: Shotgun_Fire
+  - first:
+      213: -4106140193147408818
+    second: Nintendo 64 - Doom 64 - Weapons_75
+  - first:
+      213: -8032590346642638798
+    second: Nintendo 64 - Doom 64 - Weapons_76
+  - first:
+      213: 4476260222329854761
+    second: Nintendo 64 - Doom 64 - Weapons_77
+  - first:
+      213: 8079497907141107747
+    second: Nintendo 64 - Doom 64 - Weapons_78
+  - first:
+      213: 2050614204428705254
+    second: Nintendo 64 - Doom 64 - Weapons_87
+  - first:
+      213: -2749824606981277366
+    second: Nintendo 64 - Doom 64 - Weapons_117
+  - first:
+      213: 8127194000670589180
+    second: Nintendo 64 - Doom 64 - Weapons_118
+  - first:
+      213: 1975625497706088497
+    second: Nintendo 64 - Doom 64 - Weapons_119
+  - first:
+      213: 5903186506814689503
+    second: Nintendo 64 - Doom 64 - Weapons_126
+  - first:
+      213: 5164029830688801346
+    second: Nintendo 64 - Doom 64 - Weapons_127
+  - first:
+      213: -3530560831092551970
+    second: Nintendo 64 - Doom 64 - Weapons_128
+  - first:
+      213: 4131848962562656839
+    second: Nintendo 64 - Doom 64 - Weapons_129
+  - first:
+      213: -5810507453793544132
+    second: Nintendo 64 - Doom 64 - Weapons_130
+  - first:
+      213: -7326471864123568160
+    second: Nintendo 64 - Doom 64 - Weapons_131
+  - first:
+      213: 1822941414424862619
+    second: Nintendo 64 - Doom 64 - Weapons_132
+  - first:
+      213: -6044104546691441998
+    second: Nintendo 64 - Doom 64 - Weapons_133
+  - first:
+      213: -333043707709502838
+    second: Nintendo 64 - Doom 64 - Weapons_134
+  - first:
+      213: -8542654398441135200
+    second: Nintendo 64 - Doom 64 - Weapons_135
+  - first:
+      213: -7202285212964832292
+    second: Nintendo 64 - Doom 64 - Weapons_136
+  - first:
+      213: 4212895953384253210
+    second: Nintendo 64 - Doom 64 - Weapons_137
+  - first:
+      213: -7504004207590897051
+    second: Nintendo 64 - Doom 64 - Weapons_138
+  - first:
+      213: -5352017717379586716
+    second: Nintendo 64 - Doom 64 - Weapons_139
+  - first:
+      213: 2758815110667030584
+    second: Nintendo 64 - Doom 64 - Weapons_140
+  - first:
+      213: -3449758910740310173
+    second: Nintendo 64 - Doom 64 - Weapons_141
+  - first:
+      213: 4526909007924629477
+    second: Nintendo 64 - Doom 64 - Weapons_142
+  - first:
+      213: -5014927414851572326
+    second: Nintendo 64 - Doom 64 - Weapons_143
+  - first:
+      213: -2118617565089617877
+    second: Nintendo 64 - Doom 64 - Weapons_152
+  - first:
+      213: 2226339300731893625
+    second: Nintendo 64 - Doom 64 - Weapons_168
+  - first:
+      213: 1878261145745856664
+    second: Nintendo 64 - Doom 64 - Weapons_169
+  - first:
+      213: -8740851085859826928
+    second: Nintendo 64 - Doom 64 - Weapons_176
+  - first:
+      213: -7116720544795869420
+    second: Nintendo 64 - Doom 64 - Weapons_177
+  - first:
+      213: -4607692641881450467
+    second: Nintendo 64 - Doom 64 - Weapons_178
+  - first:
+      213: 4811517684896820791
+    second: Nintendo 64 - Doom 64 - Weapons_179
+  - first:
+      213: -704762358810491583
+    second: Nintendo 64 - Doom 64 - Weapons_180
+  - first:
+      213: -3361526457273130072
+    second: Nintendo 64 - Doom 64 - Weapons_181
+  - first:
+      213: 4352118802514692502
+    second: Nintendo 64 - Doom 64 - Weapons_182
+  - first:
+      213: -5435782524830925238
+    second: Nintendo 64 - Doom 64 - Weapons_183
+  - first:
+      213: -2498188778799943642
+    second: Nintendo 64 - Doom 64 - Weapons_184
+  - first:
+      213: -2945154232258217076
+    second: Nintendo 64 - Doom 64 - Weapons_185
+  - first:
+      213: 1888929402410464348
+    second: Nintendo 64 - Doom 64 - Weapons_186
+  - first:
+      213: 3765387824985837902
+    second: Nintendo 64 - Doom 64 - Weapons_187
+  - first:
+      213: 6869553852615405002
+    second: Nintendo 64 - Doom 64 - Weapons_188
+  - first:
+      213: -6004696369469730145
+    second: Nintendo 64 - Doom 64 - Weapons_189
+  - first:
+      213: 6017265027894493979
+    second: Nintendo 64 - Doom 64 - Weapons_190
+  - first:
+      213: 8513042169592250083
+    second: Nintendo 64 - Doom 64 - Weapons_191
+  - first:
+      213: 1995625848075890751
+    second: Nintendo 64 - Doom 64 - Weapons_192
+  - first:
+      213: 2587549681740500758
+    second: Nintendo 64 - Doom 64 - Weapons_193
+  - first:
+      213: -2700266814982961217
+    second: Nintendo 64 - Doom 64 - Weapons_194
+  - first:
+      213: -6458894160554728148
+    second: Nintendo 64 - Doom 64 - Weapons_195
+  - first:
+      213: 8024052205229407457
+    second: Nintendo 64 - Doom 64 - Weapons_196
+  - first:
+      213: -1084156897470904111
+    second: Nintendo 64 - Doom 64 - Weapons_197
+  - first:
+      213: -6546466802455906687
+    second: Nintendo 64 - Doom 64 - Weapons_198
+  - first:
+      213: 7941736732266063979
+    second: Nintendo 64 - Doom 64 - Weapons_207
+  - first:
+      213: 2764111749280621137
+    second: Nintendo 64 - Doom 64 - Weapons_208
+  - first:
+      213: -1214264404424636985
+    second: Nintendo 64 - Doom 64 - Weapons_215
+  - first:
+      213: 8779263416463776037
+    second: Nintendo 64 - Doom 64 - Weapons_216
+  - first:
+      213: 4425536617798374466
+    second: Nintendo 64 - Doom 64 - Weapons_217
+  - first:
+      213: -6539732138559296345
+    second: Nintendo 64 - Doom 64 - Weapons_218
+  - first:
+      213: -5612606580855073152
+    second: Nintendo 64 - Doom 64 - Weapons_219
+  - first:
+      213: 1360004644214638127
+    second: Nintendo 64 - Doom 64 - Weapons_240
+  - first:
+      213: -5544742310963133140
+    second: Nintendo 64 - Doom 64 - Weapons_242
+  - first:
+      213: -904263940942585183
+    second: Nintendo 64 - Doom 64 - Weapons_243
+  - first:
+      213: -1358584659810766417
+    second: Nintendo 64 - Doom 64 - Weapons_244
+  - first:
+      213: -4225251513380993068
+    second: Nintendo 64 - Doom 64 - Weapons_246
+  - first:
+      213: 4939425570835608140
+    second: Nintendo 64 - Doom 64 - Weapons_247
+  - first:
+      213: -2761536564828707661
+    second: Nintendo 64 - Doom 64 - Weapons_248
+  - first:
+      213: 4519848333126013160
+    second: Nintendo 64 - Doom 64 - Weapons_249
+  - first:
+      213: -1981504214059631817
+    second: Nintendo 64 - Doom 64 - Weapons_250
+  - first:
+      213: 8301899940120220037
+    second: Nintendo 64 - Doom 64 - Weapons_251
+  - first:
+      213: -6135845072867801125
+    second: Nintendo 64 - Doom 64 - Weapons_252
+  - first:
+      213: -4265789095914534173
+    second: Nintendo 64 - Doom 64 - Weapons_0
+  - first:
+      213: 2017706190670749740
+    second: Nintendo 64 - Doom 64 - Weapons_1
+  - first:
+      213: 4950124393834305679
+    second: Nintendo 64 - Doom 64 - Weapons_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pistol_Idle
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 815
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06103dea31e06e4f0800000000000000
+      internalID: -799936406111452832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_Fire_00
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 815
+        width: 56
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4837ed9760daa3310800000000000000
+      internalID: 1385610078695879556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_Fire_01
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 815
+        width: 59
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a8c9d638999eee0800000000000000
+      internalID: -1231284233350378893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 828
+        width: 113
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b184a4b8ca2eba710800000000000000
+      internalID: 1705706114589018139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 828
+        width: 113
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ea497dc435ae310800000000000000
+      internalID: 1435051020770389599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol_Fire
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 857
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b8ad0e48b81880800000000000000
+      internalID: -8639953239734177125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_31
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 741
+        width: 116
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4a51b0646207110800000000000000
+      internalID: 1256546378311902372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 741
+        width: 114
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf5a30f2679dd680800000000000000
+      internalID: -8728654051581206600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 741
+        width: 113
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210bf30915df1eeb0800000000000000
+      internalID: -4692190809989074926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 741
+        width: 113
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc454b83d92e24d0800000000000000
+      internalID: -3157540300188726020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 741
+        width: 81
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16f11632c7c6aa80800000000000000
+      internalID: -8455851613396797922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 741
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384af6dee2b5eb40800000000000000
+      internalID: 5468974061390022711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Fire_00
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 628
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca1d38ece0dafab0800000000000000
+      internalID: -4973433122550113586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Idle
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 628
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb4a6c72a279ae20800000000000000
+      internalID: 3362344639006395335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Fire_01
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 628
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72602fb3af7ec2690800000000000000
+      internalID: -7625465007111535065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Fire
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 662
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e128e636c1f6ea0800000000000000
+      internalID: -5877447775313846705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_75
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 628
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eae75ef3f0407c0800000000000000
+      internalID: -4106140193147408818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_76
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 628
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238322263a1868090800000000000000
+      internalID: -8032590346642638798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_77
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 628
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b9e2ab4fede1e30800000000000000
+      internalID: 4476260222329854761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_78
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 663
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32068ae1a84202070800000000000000
+      internalID: 8079497907141107747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_87
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 607
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edd75a11ce357c10800000000000000
+      internalID: 2050614204428705254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_117
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 521
+        width: 108
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49b042d619a6d9d0800000000000000
+      internalID: -2749824606981277366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_118
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 521
+        width: 109
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf008a642e799c070800000000000000
+      internalID: 8127194000670589180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_119
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 570
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138c9ff3ce4da6b10800000000000000
+      internalID: 1975625497706088497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_126
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 504
+        width: 123
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0919df9d45ce150800000000000000
+      internalID: 5903186506814689503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_141
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 526
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d59c5c8eff10d0800000000000000
+      internalID: -3449758910740310173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_152
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 486
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b282ee9ac882992e0800000000000000
+      internalID: -2118617565089617877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_168
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 400
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977bd916ccb85ee10800000000000000
+      internalID: 2226339300731893625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_169
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 400
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89899938f8ce01a10800000000000000
+      internalID: 1878261145745856664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_178
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 401
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18997e64ff2e00c0800000000000000
+      internalID: -4607692641881450467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_179
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 401
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ee8c687d1f5c240800000000000000
+      internalID: 4811517684896820791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_207
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 271
+        width: 123
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68e36a1b77b63e60800000000000000
+      internalID: 7941736732266063979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_208
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 271
+        width: 123
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152ea57bdf81c5620800000000000000
+      internalID: 2764111749280621137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_215
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 271
+        width: 154
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c54ed625f0162fe0800000000000000
+      internalID: -1214264404424636985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_216
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 271
+        width: 154
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529d7ef009536d970800000000000000
+      internalID: 8779263416463776037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_217
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 271
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441b5c3b1aaa6d30800000000000000
+      internalID: 4425536617798374466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_218
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 271
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aca7fad4443e35a0800000000000000
+      internalID: -6539732138559296345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_219
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 271
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0861d143d040c12b0800000000000000
+      internalID: -5612606580855073152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_240
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 175
+        width: 136
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f268b4fa405bfd210800000000000000
+      internalID: 1360004644214638127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_242
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 184
+        width: 114
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25c6f7de3e1d03b0800000000000000
+      internalID: -5544742310963133140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_243
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 175
+        width: 129
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a22ce89cb86373f0800000000000000
+      internalID: -904263940942585183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 547
+        width: 92
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea874b1b6fdcc4c0800000000000000
+      internalID: -4265789095914534173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 403
+        width: 77
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2069041715500c10800000000000000
+      internalID: 2017706190670749740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo 64 - Doom 64 - Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 400
+        width: 83
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f885d78c8ef52b440800000000000000
+      internalID: 4950124393834305679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e575f38a1250cd146ab5e944d0cfd2e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

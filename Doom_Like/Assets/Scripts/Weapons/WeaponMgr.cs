@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum GameWeapon
 {
-    PISTOL, RIFLE, SHOTGUN, ROCKET, DARTBURST, MARCHINEGUN, PLASMARIFLE
+    Pistol, Shotgun, SuperShotgun, Chaingun, Unmaker, RocketLauncher,
 }
 
 public class WeaponMgr : MonoBehaviour

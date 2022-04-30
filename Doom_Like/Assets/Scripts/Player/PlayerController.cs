@@ -11,12 +11,13 @@ public class PlayerController : MonoBehaviour
     [Space, Header("Player Settings")]
     [SerializeField] private float m_MoveSpeed = 5.0f;
     [SerializeField] private float m_MouseSensitivity = 1.0f;
-
+    [Space]
     [SerializeField] private float m_MinRotation = 40f;
     [SerializeField] private float m_MaxRotation = 140f;
 
     private PlayerInput m_Input;
     private Rigidbody m_RigidBody;
+    private SphereCollider m_Collider;
     private Camera m_Camera;
 
     private void Awake() 
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
         if (m_Instance == null)
             m_Instance = this;
         m_RigidBody = GetComponent<Rigidbody>();
+        m_Collider = GetComponent<SphereCollider>();
         m_Input = GetComponent<PlayerInput>();
     }
 
@@ -44,7 +46,7 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.eulerAngles.y, transform.rotation.eulerAngles.z - m_Input.CameraInput.x);
 
         Vector3 camRot = new Vector3(m_Camera.transform.localRotation.eulerAngles.x, Mathf.Clamp(m_Camera.transform.localRotation.eulerAngles.y, m_MinRotation, m_MaxRotation), m_Camera.transform.localRotation.eulerAngles.z);
-        m_Camera.transform.localRotation = Quaternion.Euler(camRot + new Vector3(0f, m_Input.CameraInput.y, 0f));
+        m_Camera.transform.localRotation = Quaternion.Euler(camRot + new Vector3(0f, /*m_Input.CameraInput.y*/0f, 0f));
     }
 
     private void FixedUpdate() 
@@ -57,7 +59,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnDestroy()
     {
-        // This Try/Catch is only use to remove to error log when exiting play mode.
         try
         {
             int sceneIndex = SceneManager.GetActiveScene().buildIndex;
