@@ -22,6 +22,11 @@ public class WeaponMgr : MonoBehaviour
     private PlayerController m_Player;
 
     private bool m_WeaponDisabled = false;
+    private bool m_IsSwitching = false;
+
+    private float m_SwitchTimer = 0.5f;
+    private float m_ResetSwitchTimer;
+
 
     private void Awake()
     {
@@ -33,6 +38,7 @@ public class WeaponMgr : MonoBehaviour
 
         Instance = this;
 
+        m_ResetSwitchTimer = m_SwitchTimer;
         foreach (Transform gun in transform)
         {
             m_Weapons.Add(gun.gameObject.GetComponent<BasicWeapon>());
@@ -49,60 +55,73 @@ public class WeaponMgr : MonoBehaviour
     {
         //if (m_Player.IsDeath || m_WeaponDisabled)
         //    return;
-
-        int previousSelectedWeapon = m_SelectedWeapon;
-        if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        if (m_IsSwitching)
         {
-            if (m_SelectedWeapon >= transform.childCount - 1)
+            m_SwitchTimer -= Time.deltaTime;
+            if (m_SwitchTimer <= 0f)
+            {
+                m_SwitchTimer = m_ResetSwitchTimer;
+                m_IsSwitching = false;
+            }
+        }
+
+        if (!m_IsSwitching && m_CurrentWeapon.ReadyToShoot)
+        {
+            int previousSelectedWeapon = m_SelectedWeapon;
+            if (Input.GetAxis("Mouse ScrollWheel") > 0)
+            {
+                if (m_SelectedWeapon >= transform.childCount - 1)
+                {
+                    m_SelectedWeapon = 0;
+                }
+                else
+                {
+                    m_SelectedWeapon++;
+                }
+            }
+            if (Input.GetAxis("Mouse ScrollWheel") < 0)
+            {
+                if (m_SelectedWeapon <= 0)
+                {
+                    m_SelectedWeapon = transform.childCount - 1;
+                }
+                else
+                {
+                    m_SelectedWeapon--;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 m_SelectedWeapon = 0;
             }
-            else
+            if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2)
             {
-                m_SelectedWeapon++;
+                m_SelectedWeapon = 1;
             }
-        }
-        if (Input.GetAxis("Mouse ScrollWheel") < 0)
-        {
-            if (m_SelectedWeapon <= 0)
+            if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount >= 3)
             {
-                m_SelectedWeapon = transform.childCount - 1;
+                m_SelectedWeapon = 2;
             }
-            else
+            if (Input.GetKeyDown(KeyCode.Alpha4) && transform.childCount >= 4)
             {
-                m_SelectedWeapon--;
+                m_SelectedWeapon = 3;
             }
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            m_SelectedWeapon = 0;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2)
-        {
-            m_SelectedWeapon = 1;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount >= 3)
-        {
-            m_SelectedWeapon = 2;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha4) && transform.childCount >= 4)
-        {
-            m_SelectedWeapon = 3;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha5) && transform.childCount >= 5)
-        {
-            m_SelectedWeapon = 4;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha6) && transform.childCount >= 6)
-        {
-            m_SelectedWeapon = 5;
-        }
+            if (Input.GetKeyDown(KeyCode.Alpha5) && transform.childCount >= 5)
+            {
+                m_SelectedWeapon = 4;
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha6) && transform.childCount >= 6)
+            {
+                m_SelectedWeapon = 5;
+            }
 
 
-        if (previousSelectedWeapon != m_SelectedWeapon)
-        {
-            SelectWeapon();
+            if (previousSelectedWeapon != m_SelectedWeapon)
+            {
+                m_IsSwitching = true;
+                SelectWeapon();
+            }
         }
     }
 

@@ -18,7 +18,7 @@ public class BasicWeapon : MonoBehaviour
     [Space]
     private int m_BulletsShot;
 
-    private bool m_Shooting, m_readyToShoot;
+    private bool m_Shooting, m_ReadyToShoot;
     public bool allowInvoke = true;
 
     private GameObject m_FireEffect;
@@ -26,12 +26,14 @@ public class BasicWeapon : MonoBehaviour
     private Camera m_Camera;
     private Animator m_Animator;
 
+    public bool ReadyToShoot { get => m_ReadyToShoot; }
+
     private readonly int m_HashFire = Animator.StringToHash("Fire");
 
 
     private void Awake()
     {
-        m_readyToShoot = true;
+        m_ReadyToShoot = true;
 
         m_FireEffect = transform.Find("Fire").gameObject;
         m_Animator = GetComponent<Animator>(); 
@@ -52,11 +54,10 @@ public class BasicWeapon : MonoBehaviour
         SetAmmoUI();
     }
 
-    //private void OnDisable()
-    //{
-    //    transform.localPosition = m_InitialPosition;
-    //    transform.localRotation = m_InitialRotation;
-    //}
+    private void OnDisable()
+    {
+        
+    }
 
     private void GetInput()
     {
@@ -80,7 +81,7 @@ public class BasicWeapon : MonoBehaviour
             m_Shooting = Input.GetButtonDown("Fire1");
         }
 
-        if (m_readyToShoot && m_Shooting && m_TotalAmmos > 0)
+        if (m_ReadyToShoot && m_Shooting && m_TotalAmmos > 0)
         {
             m_BulletsShot = 0;
             Shoot();
@@ -94,7 +95,7 @@ public class BasicWeapon : MonoBehaviour
 
     private void Shoot()
     {
-        m_readyToShoot = false;
+        m_ReadyToShoot = false;
         m_Animator.SetTrigger(m_HashFire);
 
         Ray ray = m_Camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
@@ -130,7 +131,7 @@ public class BasicWeapon : MonoBehaviour
 
     private void ResetShot()
     {
-        m_readyToShoot = true;
+        m_ReadyToShoot = true;
         allowInvoke = true;
         m_Animator.ResetTrigger(m_HashFire);
     }
