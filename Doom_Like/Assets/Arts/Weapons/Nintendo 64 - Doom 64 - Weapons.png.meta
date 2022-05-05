@@ -52,31 +52,31 @@ TextureImporter:
     second: Shotgun_Fire
   - first:
       213: -4106140193147408818
-    second: Nintendo 64 - Doom 64 - Weapons_75
+    second: SShotgun_Idle
   - first:
       213: -8032590346642638798
-    second: Nintendo 64 - Doom 64 - Weapons_76
+    second: SShotgun_Fire_00
   - first:
       213: 4476260222329854761
-    second: Nintendo 64 - Doom 64 - Weapons_77
+    second: SShotgun_Fire_01
   - first:
       213: 8079497907141107747
-    second: Nintendo 64 - Doom 64 - Weapons_78
+    second: SShotgun_Fire
   - first:
       213: 2050614204428705254
     second: Nintendo 64 - Doom 64 - Weapons_87
   - first:
       213: -2749824606981277366
-    second: Nintendo 64 - Doom 64 - Weapons_117
+    second: Chaingun_00
   - first:
       213: 8127194000670589180
-    second: Nintendo 64 - Doom 64 - Weapons_118
+    second: Chaingun_01
   - first:
       213: 1975625497706088497
-    second: Nintendo 64 - Doom 64 - Weapons_119
+    second: Chaingun_FIre_F1
   - first:
       213: 5903186506814689503
-    second: Nintendo 64 - Doom 64 - Weapons_126
+    second: Unmaker_Idle
   - first:
       213: 5164029830688801346
     second: Nintendo 64 - Doom 64 - Weapons_127
@@ -121,7 +121,7 @@ TextureImporter:
     second: Nintendo 64 - Doom 64 - Weapons_140
   - first:
       213: -3449758910740310173
-    second: Nintendo 64 - Doom 64 - Weapons_141
+    second: Chaingun_Fire_F2
   - first:
       213: 4526909007924629477
     second: Nintendo 64 - Doom 64 - Weapons_142
@@ -133,10 +133,10 @@ TextureImporter:
     second: Nintendo 64 - Doom 64 - Weapons_152
   - first:
       213: 2226339300731893625
-    second: Nintendo 64 - Doom 64 - Weapons_168
+    second: RocketLauncher_00
   - first:
       213: 1878261145745856664
-    second: Nintendo 64 - Doom 64 - Weapons_169
+    second: RocketLauncher_01
   - first:
       213: -8740851085859826928
     second: Nintendo 64 - Doom 64 - Weapons_176
@@ -145,10 +145,10 @@ TextureImporter:
     second: Nintendo 64 - Doom 64 - Weapons_177
   - first:
       213: -4607692641881450467
-    second: Nintendo 64 - Doom 64 - Weapons_178
+    second: RocketLauncher_Fire_01
   - first:
       213: 4811517684896820791
-    second: Nintendo 64 - Doom 64 - Weapons_179
+    second: RocketLauncher_Fire_02
   - first:
       213: -704762358810491583
     second: Nintendo 64 - Doom 64 - Weapons_180
@@ -262,13 +262,13 @@ TextureImporter:
     second: Nintendo 64 - Doom 64 - Weapons_252
   - first:
       213: -4265789095914534173
-    second: Nintendo 64 - Doom 64 - Weapons_0
+    second: Unmaker_Fire
   - first:
       213: 2017706190670749740
-    second: Nintendo 64 - Doom 64 - Weapons_1
+    second: RocketLauncher_Fire_03
   - first:
       213: 4950124393834305679
-    second: Nintendo 64 - Doom 64 - Weapons_5
+    second: RocketLauncher_Fire_00
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -694,7 +694,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_75
+      name: SShotgun_Idle
       rect:
         serializedVersion: 2
         x: 331
@@ -715,7 +715,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_76
+      name: SShotgun_Fire_00
       rect:
         serializedVersion: 2
         x: 400
@@ -736,7 +736,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_77
+      name: SShotgun_Fire_01
       rect:
         serializedVersion: 2
         x: 473
@@ -757,7 +757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_78
+      name: SShotgun_Fire
       rect:
         serializedVersion: 2
         x: 549
@@ -799,7 +799,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_117
+      name: Chaingun_00
       rect:
         serializedVersion: 2
         x: 7
@@ -820,7 +820,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_118
+      name: Chaingun_01
       rect:
         serializedVersion: 2
         x: 125
@@ -841,7 +841,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_119
+      name: Chaingun_FIre_F1
       rect:
         serializedVersion: 2
         x: 261
@@ -862,7 +862,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_126
+      name: Unmaker_Idle
       rect:
         serializedVersion: 2
         x: 381
@@ -883,7 +883,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_141
+      name: Chaingun_Fire_F2
       rect:
         serializedVersion: 2
         x: 262
@@ -925,7 +925,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_168
+      name: RocketLauncher_00
       rect:
         serializedVersion: 2
         x: 11
@@ -946,7 +946,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_169
+      name: RocketLauncher_01
       rect:
         serializedVersion: 2
         x: 106
@@ -967,7 +967,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_178
+      name: RocketLauncher_Fire_01
       rect:
         serializedVersion: 2
         x: 296
@@ -988,7 +988,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_179
+      name: RocketLauncher_Fire_02
       rect:
         serializedVersion: 2
         x: 395
@@ -1219,7 +1219,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_0
+      name: Unmaker_Fire
       rect:
         serializedVersion: 2
         x: 527
@@ -1240,7 +1240,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_1
+      name: RocketLauncher_Fire_03
       rect:
         serializedVersion: 2
         x: 495
@@ -1261,7 +1261,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Nintendo 64 - Doom 64 - Weapons_5
+      name: RocketLauncher_Fire_00
       rect:
         serializedVersion: 2
         x: 205

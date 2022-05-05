@@ -34,7 +34,7 @@ public class BasicWeapon : MonoBehaviour
         m_readyToShoot = true;
 
         m_FireEffect = transform.Find("Fire").gameObject;
-        m_Animator = GetComponent<Animator>();
+        m_Animator = GetComponent<Animator>(); 
     }
 
     private void Start()
@@ -83,7 +83,6 @@ public class BasicWeapon : MonoBehaviour
         if (m_readyToShoot && m_Shooting && m_TotalAmmos > 0)
         {
             m_BulletsShot = 0;
-            m_Animator.SetTrigger(m_HashFire);
             Shoot();
         }
         else if (m_TotalAmmos <= 0)
@@ -96,6 +95,7 @@ public class BasicWeapon : MonoBehaviour
     private void Shoot()
     {
         m_readyToShoot = false;
+        m_Animator.SetTrigger(m_HashFire);
 
         Ray ray = m_Camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
         RaycastHit hit;
@@ -132,6 +132,7 @@ public class BasicWeapon : MonoBehaviour
     {
         m_readyToShoot = true;
         allowInvoke = true;
+        m_Animator.ResetTrigger(m_HashFire);
     }
 
     private void SetAmmoUI()

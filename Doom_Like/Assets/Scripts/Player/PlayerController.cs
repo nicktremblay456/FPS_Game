@@ -1,72 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     private static PlayerController m_Instance;
     public static PlayerController Instance { get => m_Instance; }
 
-    [Space, Header("Player Settings")]
-    [SerializeField] private float m_MoveSpeed = 5.0f;
-    [SerializeField] private float m_MouseSensitivity = 1.0f;
-    [Space]
-    [SerializeField] private float m_MinRotation = 40f;
-    [SerializeField] private float m_MaxRotation = 140f;
+    [SerializeField] private float m_MoveSpeed = 20f;
+    [SerializeField] private float m_Gravity = -10f;
+
+    private Vector3 m_MoveDirection = new Vector3();
+    private Vector3 m_InputVector;
 
     private PlayerInput m_Input;
-    private Rigidbody m_RigidBody;
-    private SphereCollider m_Collider;
-    private Camera m_Camera;
+    private Animator m_CamAnimator;
+    private CharacterController m_CC;
 
-    private void Awake() 
+    private readonly int m_HashMoving = Animator.StringToHash("Moving");
+
+    private void Awake()
     {
-        if (m_Instance == null)
-            m_Instance = this;
-        m_RigidBody = GetComponent<Rigidbody>();
-        m_Collider = GetComponent<SphereCollider>();
+        if (m_Instance == null) m_Instance = this;
+
         m_Input = GetComponent<PlayerInput>();
+        m_CamAnimator = GetComponentInChildren<Animator>();
+        m_CC = GetComponent<CharacterController>();
     }
 
-    private void Start() 
+    private void Update()
     {
-        m_Camera = Camera.main;
-        GameManager.playerController = this;
-
-        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if (GameManager.Instance.savedPositions.ContainsKey(sceneIndex))
-        {
-            transform.position = GameManager.Instance.savedPositions[sceneIndex];
-        }
+        GetInput();
+        Move();
+        HandleCamAnimation();
     }
 
-    private void Update() 
+    private void GetInput()
     {
-        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.eulerAngles.y, transform.rotation.eulerAngles.z - m_Input.CameraInput.x);
+        m_InputVector = new Vector3(m_Input.MoveInput.x, 0f, m_Input.MoveInput.y);
+        m_InputVector.Normalize();
+        m_InputVector = transform.TransformDirection(m_InputVector);
 
-        Vector3 camRot = new Vector3(m_Camera.transform.localRotation.eulerAngles.x, Mathf.Clamp(m_Camera.transform.localRotation.eulerAngles.y, m_MinRotation, m_MaxRotation), m_Camera.transform.localRotation.eulerAngles.z);
-        m_Camera.transform.localRotation = Quaternion.Euler(camRot + new Vector3(0f, /*m_Input.CameraInput.y*/0f, 0f));
+        m_MoveDirection = (m_InputVector * m_MoveSpeed) + (Vector3.up * m_Gravity);
     }
 
-    private void FixedUpdate() 
+    private void Move()
     {
-        Vector3 moveHorizontal = transform.up * -m_Input.MoveInput.x;
-        Vector3 moveVertical = transform.right * m_Input.MoveInput.y;
-
-        m_RigidBody.velocity = (moveHorizontal + moveVertical) * m_MoveSpeed * Time.fixedDeltaTime;
+        m_CC.Move(m_MoveDirection * Time.deltaTime);
     }
 
-    private void OnDestroy()
+    private void HandleCamAnimation()
     {
-        try
-        {
-            int sceneIndex = SceneManager.GetActiveScene().buildIndex;
-            GameManager.Instance.savedPositions[sceneIndex] = transform.position;
-        }
-        catch
-        {
-            return;
-        }
+        m_CamAnimator.SetBool(m_HashMoving, m_CC.velocity.magnitude > 0.1f);
     }
 }
