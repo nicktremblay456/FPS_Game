@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameWeapon
+public enum EGun
 {
     Pistol, Shotgun, SuperShotgun, Chaingun, Unmaker, RocketLauncher,
 }
@@ -11,15 +11,14 @@ public class WeaponMgr : MonoBehaviour
 {
     public static WeaponMgr Instance { get; private set; }
 
-    private BasicWeapon m_CurrentWeapon;
-    public BasicWeapon currentWeapon
+    private GunUI m_GunID;
+    public GunUI GunID
     {
-        get => m_CurrentWeapon;
+        get => m_GunID;
     }
     private int m_SelectedWeapon = 0;
 
-    private List<BasicWeapon> m_Weapons = new List<BasicWeapon>();
-    private PlayerController m_Player;
+    private List<GunUI> m_Weapons = new List<GunUI>();
 
     private bool m_WeaponDisabled = false;
     private bool m_IsSwitching = false;
@@ -41,14 +40,13 @@ public class WeaponMgr : MonoBehaviour
         m_ResetSwitchTimer = m_SwitchTimer;
         foreach (Transform gun in transform)
         {
-            m_Weapons.Add(gun.gameObject.GetComponent<BasicWeapon>());
+            m_Weapons.Add(gun.gameObject.GetComponent<GunUI>());
         }
     }
 
     private void Start()
     {
         SelectWeapon();
-        m_Player = PlayerController.Instance;
     }
 
     private void Update()
@@ -65,7 +63,7 @@ public class WeaponMgr : MonoBehaviour
             }
         }
 
-        if (!m_IsSwitching && m_CurrentWeapon.ReadyToShoot)
+        if (!m_IsSwitching && m_GunID.ReadyToShoot)
         {
             int previousSelectedWeapon = m_SelectedWeapon;
             if (Input.GetAxis("Mouse ScrollWheel") > 0)
@@ -133,7 +131,7 @@ public class WeaponMgr : MonoBehaviour
             if (i == m_SelectedWeapon)
             {
                 weapon.gameObject.SetActive(true);
-                m_CurrentWeapon = weapon.gameObject.GetComponent<BasicWeapon>();
+                m_GunID = weapon.gameObject.GetComponent<GunUI>();
             }
             else
             {
@@ -143,11 +141,11 @@ public class WeaponMgr : MonoBehaviour
         }
     }
 
-    public void AddAmmos(GameWeapon weapon, int ammo)
+    public void AddAmmos(EGun weapon, int ammo)
     {
-        foreach (BasicWeapon gun in m_Weapons)
+        foreach (GunUI gun in m_Weapons)
         {
-            if (gun.weapon == weapon)
+            if (gun.EquipedGun == weapon)
             {
                 gun.AddAmmos(ammo);
                 break;
@@ -158,7 +156,7 @@ public class WeaponMgr : MonoBehaviour
     public void DisableWeapon()
     {
         m_WeaponDisabled = true;
-        foreach (BasicWeapon gun in m_Weapons)
+        foreach (GunUI gun in m_Weapons)
         {
             gun.gameObject.SetActive(false);
         }

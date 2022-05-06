@@ -8,7 +8,7 @@ public class AmmoBox : MonoBehaviour
     private LayerMask m_TriggerLayer;
     private GameObject m_AmmoBox;
 
-    [SerializeField] private GameWeapon m_WeaponAmmo;
+    [SerializeField] private EGun m_WeaponAmmo;
     [SerializeField] private bool m_CanRespawn = false;
     [SerializeField] private float m_RespawnTimer = 30f;
     [SerializeField] private int m_TotalAmmo;
