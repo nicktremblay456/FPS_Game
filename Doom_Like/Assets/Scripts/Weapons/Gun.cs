@@ -7,22 +7,23 @@ public class Gun : MonoBehaviour
     [SerializeField] private float m_Range = 20f;
     [SerializeField] private float m_VerticalRange = 20f;
     [Space]
-    [SerializeField] private bool allowInvoke = true;
+    [SerializeField] private AudioClip m_FireSound;
     [Space]
     [SerializeField] private LayerMask m_RaycastLayer;
 
+    private bool m_AllowInvoke = true, m_ReadyToShoot, m_Shooting;
     private int m_BulletsShot;
 
-    private bool m_Shooting, m_ReadyToShoot;
-
-    [SerializeField] private GunStats m_GunStats;
+    private GunStats m_GunStats;
+    private GunUI m_Gun;
     private BoxCollider m_GunTrigger; 
     private List<GameObject> m_Enemies = new List<GameObject>();
+
+    public bool ReadyToShoot { get => m_ReadyToShoot; }
 
     private void Awake()
     {
         m_ReadyToShoot = true;
-
         m_GunTrigger = GetComponent<BoxCollider>();
         m_GunTrigger.size = new Vector3(1, m_VerticalRange, m_Range);
         m_GunTrigger.center = new Vector3(0, 0, m_Range * 0.5f);
@@ -33,8 +34,9 @@ public class Gun : MonoBehaviour
         GetInput();
     }
 
-    public void UpdateGunStats(GunStats stats)
+    public void UpdateGunStats(GunStats stats, GunUI gun)
     {
+        m_Gun = gun;
         m_GunStats = stats;
     }
 
@@ -64,6 +66,7 @@ public class Gun : MonoBehaviour
     private void Shoot()
     {
         m_ReadyToShoot = false;
+        m_Gun.Shoot();
 
         foreach(GameObject go in m_Enemies)
         {
@@ -74,6 +77,10 @@ public class Gun : MonoBehaviour
                 if (hit.transform == go.transform)
                 {
                     go.SetActive(false);
+                    if (m_Gun.GunID != EGun.Shotgun && m_Gun.GunID != EGun.SuperShotgun)
+                    {
+                        break;
+                    }
                 }
             }
         }
@@ -81,10 +88,10 @@ public class Gun : MonoBehaviour
         m_GunStats.totalAmmos--;
         m_BulletsShot++;
 
-        if(allowInvoke)
+        if(m_AllowInvoke)
         {
             Invoke("ResetShot", m_GunStats.timeBetweenShooting);
-            allowInvoke = false;
+            m_AllowInvoke = false;
         }
 
         if (m_BulletsShot < m_GunStats.bulletsPerTap && m_GunStats.totalAmmos > 0)
@@ -96,7 +103,14 @@ public class Gun : MonoBehaviour
     private void ResetShot()
     {
         m_ReadyToShoot = true;
-        allowInvoke = true;
+        m_AllowInvoke = true;
+    }
+
+    public void PlaySoundEffect(AudioClip clip)
+    {
+        SFX_Audio fireSound = PoolMgr.Instance.Spawn("SFX_Audio", transform.position, Quaternion.identity).GetComponent<SFX_Audio>();
+        fireSound.SetUp(clip);
+        fireSound.Play();
     }
 
     private void OnTriggerEnter(Collider other)

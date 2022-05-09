@@ -11,10 +11,10 @@ public class WeaponMgr : MonoBehaviour
 {
     public static WeaponMgr Instance { get; private set; }
 
-    private GunUI m_GunID;
-    public GunUI GunID
+    private GunUI m_EquipedGun;
+    public GunUI EquipedGun
     {
-        get => m_GunID;
+        get => m_EquipedGun;
     }
     private int m_SelectedWeapon = 0;
 
@@ -63,7 +63,7 @@ public class WeaponMgr : MonoBehaviour
             }
         }
 
-        if (!m_IsSwitching && m_GunID.ReadyToShoot)
+        if (!m_IsSwitching && m_EquipedGun.ReadyToShoot)
         {
             int previousSelectedWeapon = m_SelectedWeapon;
             if (Input.GetAxis("Mouse ScrollWheel") > 0)
@@ -131,7 +131,7 @@ public class WeaponMgr : MonoBehaviour
             if (i == m_SelectedWeapon)
             {
                 weapon.gameObject.SetActive(true);
-                m_GunID = weapon.gameObject.GetComponent<GunUI>();
+                m_EquipedGun = weapon.gameObject.GetComponent<GunUI>();
             }
             else
             {
@@ -145,7 +145,7 @@ public class WeaponMgr : MonoBehaviour
     {
         foreach (GunUI gun in m_Weapons)
         {
-            if (gun.EquipedGun == weapon)
+            if (gun.GunID == weapon)
             {
                 gun.AddAmmos(ammo);
                 break;
