@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum EGun
 {
-    Pistol, Shotgun, SuperShotgun, Chaingun, Unmaker, RocketLauncher,
+    Pistol, Shotgun, SuperShotgun, Chaingun, Unmaker, RocketLauncher, Plasmagun
 }
 
 public class WeaponMgr : MonoBehaviour
@@ -18,7 +18,7 @@ public class WeaponMgr : MonoBehaviour
     }
     private int m_SelectedWeapon = 0;
 
-    private List<GunUI> m_Weapons = new List<GunUI>();
+    [SerializeField] private List<GunUI> m_Weapons = new List<GunUI>();
 
     private bool m_WeaponDisabled = false;
     private bool m_IsSwitching = false;
@@ -112,6 +112,10 @@ public class WeaponMgr : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha6) && transform.childCount >= 6)
             {
                 m_SelectedWeapon = 5;
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha7) && transform.childCount >= 7)
+            {
+                m_SelectedWeapon = 6;
             }
 
 

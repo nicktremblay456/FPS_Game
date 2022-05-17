@@ -90,7 +90,7 @@ public class Bullet : PoolableObject
         {
             if (enemies[i].GetComponent<Damageable>())
             {
-                enemies[i].GetComponent<Damageable>().ApplyDamage(m_Data, false);
+                enemies[i].GetComponent<Damageable>().ApplyDamage(m_Data);
             }
             if (enemies[i].GetComponent<Rigidbody>())
             {

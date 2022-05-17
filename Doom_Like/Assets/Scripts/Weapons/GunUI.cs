@@ -5,6 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public class GunStats
 {
+    public GameObject projectile;
+    public Damageable.DamageMessage damageableData;
     public float timeBetweenShooting, timeBetweenShots;
     public int totalAmmos, maxAmmos, bulletsPerTap;
     public bool allowButtonHold;
@@ -19,8 +21,10 @@ public class GunUI : MonoBehaviour
     }
     [Space]
     [SerializeField] private AudioClip m_FireSound;
+    [SerializeField] private float m_ProjectileForce = 350f;
     [Space]
     [SerializeField] private GunStats m_GunStats;
+    [SerializeField] private int m_Damage;
 
     private GameObject m_FireEffect;
     private Gun m_Gun;
@@ -43,7 +47,8 @@ public class GunUI : MonoBehaviour
     private void Awake()
     {
         m_FireEffect = transform.Find("Fire").gameObject;
-        m_Animator = GetComponent<Animator>(); 
+        m_Animator = GetComponent<Animator>();
+        m_GunStats.damageableData.amount = m_Damage;
     }
 
     private void Start()
@@ -79,11 +84,20 @@ public class GunUI : MonoBehaviour
 
     public void FireEventStart()
     {
-        m_FireEffect.SetActive(true);
+        if (m_FireEffect != null)
+            m_FireEffect.SetActive(true);
+        if (m_GunStats.projectile != null)
+        {
+            GameObject projectile = PoolMgr.Instance.Spawn(m_GunStats.projectile.name, m_Gun.transform.position, Quaternion.identity);
+            Rigidbody projBody = projectile.GetComponent<Rigidbody>();
+            if (projBody != null)
+                projBody.AddForce(m_Gun.ProjectileSpawn.forward * m_ProjectileForce);
+        }
     }
 
     public void FireEventEnd()
     {
-        m_FireEffect.SetActive(false);
+        if (m_FireEffect != null)
+            m_FireEffect.SetActive(false);
     }
 }

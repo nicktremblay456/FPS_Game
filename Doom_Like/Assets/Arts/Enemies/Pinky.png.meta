@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: 1ac9536dca3be1745b605506b3b9b18a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3251249768582784996
+    second: bosshog_0
+  - first:
+      213: -8906392719413746478
+    second: bosshog_1
+  - first:
+      213: 4546810074350377961
+    second: bosshog_2
+  - first:
+      213: -9091496206301129509
+    second: bosshog_3
+  - first:
+      213: -8444906446795943009
+    second: bosshog_4
+  - first:
+      213: 9045475155990784985
+    second: bosshog_5
+  - first:
+      213: 4690687367962634962
+    second: bosshog_6
+  - first:
+      213: 2278726344140767570
+    second: bosshog_7
+  - first:
+      213: 2982686982800831472
+    second: bosshog_8
+  - first:
+      213: -5191437680656529947
+    second: bosshog_9
+  - first:
+      213: -4591547141775937553
+    second: bosshog_10
+  - first:
+      213: 3973775780478914532
+    second: bosshog_11
+  - first:
+      213: -8882609941843976409
+    second: bosshog_12
+  - first:
+      213: -1455865014655411112
+    second: bosshog_13
+  - first:
+      213: 1487315807682205253
+    second: bosshog_14
+  - first:
+      213: -5883986801143003351
+    second: bosshog_15
+  - first:
+      213: -8118547001397679953
+    second: bosshog_16
+  - first:
+      213: 375636939616134365
+    second: bosshog_17
+  - first:
+      213: 7526809562828101666
+    second: bosshog_18
+  - first:
+      213: -7440649849825996781
+    second: bosshog_19
+  - first:
+      213: -2103374082825131274
+    second: bosshog_20
+  - first:
+      213: 8585018238916098275
+    second: bosshog_21
+  - first:
+      213: 5866628659383982998
+    second: bosshog_22
+  - first:
+      213: 6996474021258593988
+    second: bosshog_23
+  - first:
+      213: -1547305977397871249
+    second: bosshog_24
+  - first:
+      213: -1577181428517415769
+    second: bosshog_25
+  - first:
+      213: -2987123484480589861
+    second: bosshog_26
+  - first:
+      213: -5191241090074770957
+    second: bosshog_27
+  - first:
+      213: 2293852920182101817
+    second: bosshog_28
+  - first:
+      213: 1216320061198254149
+    second: bosshog_29
+  - first:
+      213: -6468275556517038937
+    second: bosshog_30
+  - first:
+      213: -1333651068723938859
+    second: bosshog_31
+  - first:
+      213: 8482164245821929727
+    second: bosshog_32
+  - first:
+      213: -7689832783041123654
+    second: bosshog_33
+  - first:
+      213: -7015236015396055608
+    second: bosshog_34
+  - first:
+      213: -5455174962235344174
+    second: bosshog_39
+  - first:
+      213: -4705158568715245521
+    second: bosshog_42
+  - first:
+      213: 712840057579851420
+    second: bosshog_61
+  - first:
+      213: 7507676014824198247
+    second: bosshog_64
+  - first:
+      213: 6977025528305445712
+    second: bosshog_65
+  - first:
+      213: -4344643545472602551
+    second: bosshog_66
+  - first:
+      213: 3786243748019130858
+    second: bosshog_67
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bosshog_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 673
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c185d83bf8d31e2d0800000000000000
+      internalID: -3251249768582784996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 673
+        width: 59
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4e7318203266480800000000000000
+      internalID: -8906392719413746478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 673
+        width: 59
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb52de2ca3891f30800000000000000
+      internalID: 4546810074350377961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 673
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd41c928e5484d180800000000000000
+      internalID: -9091496206301129509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_4
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 673
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f935255645aadca80800000000000000
+      internalID: -8444906446795943009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 673
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dba379babbf78d70800000000000000
+      internalID: 9045475155990784985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_6
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 673
+        width: 68
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da23df0f4ba81140800000000000000
+      internalID: 4690687367962634962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 559
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251c5da6989af9f10800000000000000
+      internalID: 2278726344140767570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 559
+        width: 56
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f376060202a46920800000000000000
+      internalID: 2982686982800831472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 559
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5c3e25fee44f7b0800000000000000
+      internalID: -5191437680656529947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 559
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef2cfc933c8740c0800000000000000
+      internalID: -4591547141775937553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 559
+        width: 81
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef0f74b400b52730800000000000000
+      internalID: 3973775780478914532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_12
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 559
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f590ae151aab480800000000000000
+      internalID: -8882609941843976409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 559
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c9b809b7abbcbe0800000000000000
+      internalID: -1455865014655411112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 448
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54698b1d8d104a410800000000000000
+      internalID: 1487315807682205253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_15
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 448
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927c8c6dd21e75ea0800000000000000
+      internalID: -5883986801143003351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 448
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8e0612480255f80800000000000000
+      internalID: -8118547001397679953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_17
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 448
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4a55e6ec7863500800000000000000
+      internalID: 375636939616134365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_18
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 448
+        width: 70
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228d16c2b69947860800000000000000
+      internalID: 7526809562828101666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_19
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 448
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310de0342608db890800000000000000
+      internalID: -7440649849825996781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_20
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 448
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fae1737a605fc2e0800000000000000
+      internalID: -2103374082825131274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 343
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8f7d85a9c142770800000000000000
+      internalID: 8585018238916098275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 343
+        width: 58
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b55b7dea37a6150800000000000000
+      internalID: 5866628659383982998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 343
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60e5dad08781160800000000000000
+      internalID: 6996474021258593988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 343
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d7c5a596dd68ae0800000000000000
+      internalID: -1547305977397871249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 343
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a450e6d8d9bc1ae0800000000000000
+      internalID: -1577181428517415769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_26
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 343
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfae4f640b9b86d0800000000000000
+      internalID: -2987123484480589861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_27
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 343
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f18ea2abb105f7b0800000000000000
+      internalID: -5191241090074770957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 239
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937527ad31765df10800000000000000
+      internalID: 2293852920182101817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 237
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54047ecb6ac31e010800000000000000
+      internalID: 1216320061198254149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 239
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b578d6a11c36a0800000000000000
+      internalID: -6468275556517038937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 239
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9b3624b6bed7de0800000000000000
+      internalID: -1333651068723938859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_32
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 239
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff83cbee073b6b570800000000000000
+      internalID: 8482164245821929727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_33
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 239
+        width: 74
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba2ea883d9384590800000000000000
+      internalID: -7689832783041123654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_34
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 239
+        width: 70
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59ac62300e4ae90800000000000000
+      internalID: -7015236015396055608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_39
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 118
+        width: 77
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da7b5c46435b44b0800000000000000
+      internalID: -5455174962235344174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_42
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 118
+        width: 75
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28a7d3f53be3beb0800000000000000
+      internalID: -4705158568715245521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_61
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 118
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e47bd614484e900800000000000000
+      internalID: 712840057579851420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_64
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 118
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7601150ee8f903860800000000000000
+      internalID: 7507676014824198247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_65
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 15
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b6a7b80cf53d060800000000000000
+      internalID: 6977025528305445712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_66
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 15
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e696cd6b9b4b3c0800000000000000
+      internalID: -4344643545472602551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosshog_67
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 15
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae159b1e0a07b8430800000000000000
+      internalID: 3786243748019130858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4d7b088651abe664586f34325d948207
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

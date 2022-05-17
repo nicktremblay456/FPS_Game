@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float m_Gravity = -10f;
 
     private bool m_IsWalking = false;
+    private bool m_IsDead = false;
 
     private Vector3 m_MoveDirection = new Vector3();
     private Vector3 m_InputVector;
@@ -19,7 +20,10 @@ public class PlayerController : MonoBehaviour
     private Animator m_CamAnimator;
     private CharacterController m_CC;
 
+    public bool IsDead { get => m_IsDead; }
+
     private readonly int m_HashMoving = Animator.StringToHash("Moving");
+    private readonly int m_HashDeath = Animator.StringToHash("Death");
 
     private void Awake()
     {
@@ -72,5 +76,12 @@ public class PlayerController : MonoBehaviour
     private void HandleCamAnimation()
     {
         m_CamAnimator.SetBool(m_HashMoving, m_CC.velocity.magnitude > 0.1f);
+    }
+
+    public void OnDeath()
+    {
+        m_IsDead = true;
+        m_Input.ReleaseControl();
+        m_CamAnimator.SetTrigger(m_HashDeath);
     }
 }

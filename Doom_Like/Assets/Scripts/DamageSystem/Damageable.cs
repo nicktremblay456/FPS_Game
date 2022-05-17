@@ -9,7 +9,7 @@ public partial class Damageable : MonoBehaviour
 {
     [SerializeField] private GameObject m_DamageEffect;
 
-    public int maxHitPoints;
+    [SerializeField] private int m_MaxHitPoints;
     public int currentHitPoints { get; private set; }
 
     public UnityEvent OnDeath, OnReceiveDamage, OnResetDamage;
@@ -19,8 +19,10 @@ public partial class Damageable : MonoBehaviour
     public List<MonoBehaviour> onDamageMessageReceivers;
 
     protected Collider m_Collider;
-
     private System.Action schedule;
+
+    private bool m_IsDead = false;
+    public bool IsDead { get => m_IsDead; }
 
     private void Start()
     {
@@ -30,32 +32,30 @@ public partial class Damageable : MonoBehaviour
 
     public void ResetDamage()
     {
-        currentHitPoints = maxHitPoints;
+        currentHitPoints = m_MaxHitPoints;
         OnResetDamage.Invoke();
     }
 
-    public void SetColliderState(bool enabled)
-    {
-        m_Collider.enabled = enabled;
-    }
-
-    public void ApplyDamage(DamageMessage data, bool headShot)
+    public void ApplyDamage(DamageMessage data)
     {
         if (m_DamageEffect != null)
         {
-            PoolMgr.Instance.Spawn(m_DamageEffect.name, transform.position, Quaternion.identity);
+            GameObject hitEffect = PoolMgr.Instance.Spawn(m_DamageEffect.name, transform.position, Quaternion.identity);
+            hitEffect.transform.SetParent(transform);
         }
         if (currentHitPoints <= 0)
         {
             return;
         }
 
-        currentHitPoints -= headShot ? data.amount * 2 : data.amount;
+        currentHitPoints -= data.amount;
 
         if (currentHitPoints <= 0)
         {
             //This avoid race condition when objects kill each other.
             schedule += OnDeath.Invoke;
+            m_Collider.enabled = false;
+            m_IsDead = true;
         }
         else
         {

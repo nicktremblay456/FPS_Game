@@ -12,6 +12,13 @@ public class MouseLook : MonoBehaviour
 
     private float m_CurrentLookingPos;
 
+    private PlayerInput m_Input;
+
+    private void Awake()
+    {
+        m_Input = GetComponent<PlayerInput>();
+    }
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -27,7 +34,7 @@ public class MouseLook : MonoBehaviour
 
     private void GetInput()
     {
-        m_MouseX = Input.GetAxisRaw("Mouse X");
+        m_MouseX = m_Input.CameraInput.x;
     }
 
     private void ModifyInput()

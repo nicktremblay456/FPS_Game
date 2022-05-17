@@ -27,7 +27,7 @@ public class DamageablePart : MonoBehaviour
         if (0 != (m_DamageSourceLayer.value & 1 << collision.gameObject.layer))
         {
             Damageable.DamageMessage data = collision.gameObject.GetComponent<Bullet>().data;
-            m_Damageable.ApplyDamage(data, m_IsCritPart);
+            m_Damageable.ApplyDamage(data);
         }
     }
 }

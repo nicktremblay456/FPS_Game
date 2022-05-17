@@ -11,19 +11,25 @@ public class Gun : MonoBehaviour
     [Space]
     [SerializeField] private LayerMask m_RaycastLayer;
 
+    [SerializeField] private Transform m_ProjectileSpawn;
+
     private bool m_AllowInvoke = true, m_ReadyToShoot, m_Shooting;
     private int m_BulletsShot;
 
     private GunStats m_GunStats;
     private GunUI m_Gun;
     private BoxCollider m_GunTrigger; 
-    private List<GameObject> m_Enemies = new List<GameObject>();
+    private List<Damageable> m_Enemies = new List<Damageable>();
 
     public bool ReadyToShoot { get => m_ReadyToShoot; }
+    public Transform ProjectileSpawn { get => m_ProjectileSpawn; }
 
     private void Awake()
     {
         m_ReadyToShoot = true;
+
+        m_ProjectileSpawn = transform.Find("Projectile_Spawn");
+
         m_GunTrigger = GetComponent<BoxCollider>();
         m_GunTrigger.size = new Vector3(1, m_VerticalRange, m_Range);
         m_GunTrigger.center = new Vector3(0, 0, m_Range * 0.5f);
@@ -68,18 +74,22 @@ public class Gun : MonoBehaviour
         m_ReadyToShoot = false;
         m_Gun.Shoot();
 
-        foreach(GameObject go in m_Enemies)
+        if (m_GunStats.projectile == null)
         {
-            Vector3 dir = go.transform.position - transform.position;
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, dir, out hit, m_Range * 1.5f, m_RaycastLayer))
+            foreach(Damageable damageable in m_Enemies)
             {
-                if (hit.transform == go.transform)
+                Vector3 dir = damageable.transform.position - transform.position;
+                RaycastHit hit;
+                if (Physics.Raycast(transform.position, dir, out hit, m_Range * 1.5f, m_RaycastLayer))
                 {
-                    go.SetActive(false);
-                    if (m_Gun.GunID != EGun.Shotgun && m_Gun.GunID != EGun.SuperShotgun)
+                    if (hit.transform == damageable.transform)
                     {
-                        break;
+                        //go.ApplyDamage(m_GunStats.damage);
+                        damageable.ApplyDamage(m_GunStats.damageableData);
+                        if (m_Gun.GunID != EGun.Shotgun && m_Gun.GunID != EGun.SuperShotgun)
+                        {
+                            break;
+                        }
                     }
                 }
             }
@@ -117,7 +127,13 @@ public class Gun : MonoBehaviour
     {
         if (0 != (LayerMask.GetMask("Enemy") & 1 << other.gameObject.layer))
         {
-            m_Enemies.Add(other.gameObject);
+            Damageable damageable = other.GetComponent<Damageable>();
+            if (damageable != null)
+            {
+                if (!damageable.IsDead)
+                    m_Enemies.Add(damageable);
+            }
+            //m_Enemies.Add(other.gameObject);
         }
     }
 
@@ -125,7 +141,10 @@ public class Gun : MonoBehaviour
     {
         if (0 != (LayerMask.GetMask("Enemy") & 1 << other.gameObject.layer))
         {
-            m_Enemies.Remove(other.gameObject);
+            Damageable damageable = other.GetComponent<Damageable>();
+            if (damageable != null)
+                m_Enemies.Remove(damageable);
+            //m_Enemies.Remove(other.gameObject);
         }
     }
 }
